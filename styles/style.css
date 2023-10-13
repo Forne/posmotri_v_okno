@@ -188,12 +188,6 @@ ol {
   gap: 26px;
 }
 
-/* fix for pixel perfect on non found state */
-.content__details:not(:has(.content__list-item)) {
-  height: 534px;
-  width: 399px;
-}
-
 .title {
   color: #fff;
   font-family: Oswald, sans-serif;
@@ -211,7 +205,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  max-height: 298px;
+  height: 298px;
   overflow-y: auto;
 }
 
